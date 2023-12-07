@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 370px;
+    height: 140px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(184, 209, 43, 0.396);
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.Postsmain{
+    width: 370px;
+    height: 140px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.396);
+    margin-bottom: 10px;
+    
+    color: white;
+}
+.Postsmain p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -110px;
+    position: absolute;
+    color: green;
+}
+.main h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+.main p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -310px;
+    margin-top: -70px;
+    position: absolute;
+    color: green;
+}
+.text{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+* {
+    box-sizing: border-box;
+ }
+ .product-item {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+    border: 1px solid;
+    margin-bottom: 20px;
+ }
+ .product-item:hover {
+    border-bottom: 2px solid #fc5a5a;
+ }
+ .product-item img {
+    display: block;
+    width: 100%;
+ }
+ .product-list {
+    background: #fafafa;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #fc5a5a;
+ }
+ .NavBar{
+    position: fixed;
+    margin-left: -500px;
+ }  
+ .NavBar button{
+    width: 130px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+ }
